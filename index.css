@@ -1,0 +1,29 @@
+
+  .list{
+    float: right;
+    background-color: aquamarine;
+   }
+   ul {
+    font-family: "Arial";
+    font-size: 20px;
+   }
+  img {
+      float: left;
+  }
+  button {
+    border-radius: 50px 50px 50px 50px;
+  }
+  .header {
+      height: 100px;
+      background-color: lightgray;
+  }
+  #register {
+      float: right;
+  }
+  #login {
+      float: right;
+  }
+  footer {
+    height: 100px;
+    background-color: lightgray;
+  }
