@@ -5,31 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>список</title>
+    <title>Todo list</title>
     <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 
 <body>
-    <div class="header">
-        <img src="assets/avatar.png">
-        <p>Todo list</p>
-        <button id="register"> Register </button>
-        <button id="login"> Login </button>
-    </div>
-    <img src="./assets/logo3.png" width="200" height="200">
+    <div class="wrapper">
+        <div class="header">
+            <img src="assets/logo.png">
+            <button id="register"> Register </button>
+            <button id="login"> Login </button>
+        </div>
 
-    <div class="list">
-        <h1>Список дел на сегодня</h1>
-        <ul>
-            <li> <strike>покушаць</strike> </li>
-            <li>выучить что нибудь</li>
-            <li>покушаць есчё раз</li>
-            <li>покормить лешу</li>
-            <input name="textfield" placeholder="Добавить новое дело" type="text">
-            <button> Добавить </button>
-        </ul>
+        <div class="nav">
+            <img src="./assets/avatar.jpg" width="200" height="200">
+        </div>
+
+        <div class="list-today">
+            <h1>Список дел на сегодня</h1>
+            <ul>
+                <li> <strike>покушаць</strike> </li>
+                <li>выучить что нибудь</li>
+                <li>покушаць есчё раз</li>
+                <li>покормить лешу</li>
+                <input name="textfield" placeholder="Добавить новое дело" type="text">
+                <button> Добавить </button>
+            </ul>
+        </div>
+        <div class="list-tomorrow">
+            <h1>Список дел на завтра</h1>
+            <ul>
+                <li>покушаць </li>
+                <li>выучить что нибудь</li>
+                <li>покушаць есчё раз</li>
+                <li>покормить лешу</li>
+                <input name="textfield" placeholder="Добавить новое дело" type="text">
+                <button> Добавить </button>
+            </ul>
+        </div>
     </div>
-    <footer>Made by</footer>
 </body>
 
 </html>

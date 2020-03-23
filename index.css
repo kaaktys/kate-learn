@@ -1,29 +1,33 @@
+.wrapper {
+  display: grid;
+  grid-template-areas: 
+  'h h h'
+  'n l a' 
+  ;
 
-  .list{
-    float: right;
-    background-color: aquamarine;
-   }
-   ul {
-    font-family: "Arial";
-    font-size: 20px;
-   }
-  img {
-      float: left;
-  }
-  button {
-    border-radius: 50px 50px 50px 50px;
-  }
-  .header {
-      height: 100px;
-      background-color: lightgray;
-  }
-  #register {
-      float: right;
-  }
-  #login {
-      float: right;
-  }
-  footer {
-    height: 100px;
-    background-color: lightgray;
-  }
+  grid-template-rows: 60px 1fr 1fr;
+  grid-template-columns: 2fr 10fr 10fr;
+}
+
+.header {
+  grid-area: h;
+  background-color: lightgray;
+}
+
+.list-today {
+  grid-area: l;
+  background-color: aquamarine;
+}
+
+.list-tomorrow {
+  grid-area: a;
+  background-color: saddlebrown;
+}
+
+.nav {
+  grid-area: n;
+}
+
+.header img {
+  max-width: 50px;
+}
